@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AmmoLog Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #333;
+      background-color: #ffffff;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-top: 30px;
+    }
+    p {
+      margin: 15px 0;
+    }
+    .updated {
+      color: #666;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>AmmoLog Privacy Policy</h1>
+<p class="updated">Last updated: April 2026</p>
+
+<p>
+AmmoLog is a shooting session log app for Android. This policy explains what data the
+app collects and how it is handled.
+</p>
+
+<h2>No data is collected</h2>
+<p>
+AmmoLog does not collect, transmit, share, or sell any personal data or usage
+information. The app has no internet connection, no analytics, no advertising, and no
+third-party SDKs that collect data.
+</p>
+
+<h2>What is stored on your device</h2>
+<p>
+Everything you enter into AmmoLog — firearm names, serial numbers, ammunition types,
+session dates, round counts, and notes — is stored locally on your device only. This
+data never leaves your device unless you explicitly export or back it up yourself
+using the app's built-in export and backup features.
+</p>
+
+<h2>Encryption</h2>
+<p>
+All data is stored in an encrypted database on your device using AES-256 encryption.
+The encryption key is stored in your device's secure hardware keystore and is unique
+to your device.
+</p>
+
+<h2>Backups and exports</h2>
+<p>
+When you use the Backup or Export features, AmmoLog creates a file and hands it to
+Android's standard file-sharing system. You choose where that file goes. AmmoLog has
+no visibility into or control over files once they leave the app.
+</p>
+
+<h2>Permissions</h2>
+<p>
+AmmoLog requests no permissions. It does not access your camera, location, contacts,
+microphone, or any other device resource.
+</p>
+
+<h2>Children</h2>
+<p>
+AmmoLog is not directed at children under 13 and does not knowingly collect any
+information from anyone.
+</p>
+
+<h2>Contact</h2>
+<p>
+If you have questions about this policy, contact: <em>[your email address]</em>
+</p>
+
+</body>
+</html>
