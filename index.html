@@ -1,95 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AmmoLog Privacy Policy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AmmoLog – Privacy Policy</title>
   <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #333;
-      background-color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 2rem 1rem;
     }
+
+    .card {
+      max-width: 760px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,.08);
+      padding: 2.5rem 2.8rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin-bottom: 2rem;
+    }
+
+    .brand-dot {
+      width: 40px; height: 40px;
+      border-radius: 10px;
+      background: #0D1B3E;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: -.5px;
+      flex-shrink: 0;
+    }
+
+    .brand-name { font-size: 1.25rem; font-weight: 700; color: #0D1B3E; }
+
     h1 {
-      margin-bottom: 10px;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #0D1B3E;
+      margin-bottom: .35rem;
     }
-    h2 {
-      margin-top: 30px;
-    }
-    p {
-      margin: 15px 0;
-    }
-    .updated {
+
+    .effective {
+      font-size: .85rem;
       color: #666;
-      font-size: 0.9em;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #0D1B3E;
+      margin-top: 2rem;
+      margin-bottom: .6rem;
+      padding-bottom: .3rem;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    p { margin-bottom: .9rem; font-size: .95rem; }
+
+    ul {
+      margin: .4rem 0 .9rem 1.2rem;
+      font-size: .95rem;
+    }
+
+    ul li { margin-bottom: .35rem; }
+
+    a { color: #0D1B3E; }
+    a:hover { text-decoration: underline; }
+
+    .highlight-box {
+      background: #f0f4ff;
+      border-left: 4px solid #0D1B3E;
+      border-radius: 0 6px 6px 0;
+      padding: .9rem 1.1rem;
+      margin-bottom: 1.2rem;
+      font-size: .92rem;
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid #e8e8e8;
+      font-size: .82rem;
+      color: #888;
     }
   </style>
 </head>
-
 <body>
+<div class="card">
 
-<h1>AmmoLog Privacy Policy</h1>
-<p class="updated">Last updated: April 2026</p>
+  <div class="brand">
+    <div class="brand-dot">AL</div>
+    <span class="brand-name">AmmoLog</span>
+  </div>
 
-<p>
-AmmoLog is a shooting session log app for Android. This policy explains what data the
-app collects and how it is handled.
-</p>
+  <h1>Privacy Policy</h1>
+  <p class="effective">Effective date: 6 April 2025 &nbsp;·&nbsp; Last updated: 6 April 2025</p>
 
-<h2>No data is collected</h2>
-<p>
-AmmoLog does not collect, transmit, share, or sell any personal data or usage
-information. The app has no internet connection, no analytics, no advertising, and no
-third-party SDKs that collect data.
-</p>
+  <div class="highlight-box">
+    AmmoLog is a shooting session logger. All data you enter — firearms, ammunition, and session records — is stored
+    locally on your device and is never transmitted to us or any third party, with the single exception of anonymous
+    crash reports described below.
+  </div>
 
-<h2>What is stored on your device</h2>
-<p>
-Everything you enter into AmmoLog — firearm names, serial numbers, ammunition types,
-session dates, round counts, and notes — is stored locally on your device only. This
-data never leaves your device unless you explicitly export or back it up yourself
-using the app's built-in export and backup features.
-</p>
+  <h2>1. Who we are</h2>
+  <p>AmmoLog is an Android application developed and published by Miles Herridge ("we", "us"). If you have any privacy
+  questions, contact us at <a href="mailto:milesherridge@gmail.com">milesherridge@gmail.com</a>.</p>
 
-<h2>Encryption</h2>
-<p>
-All data is stored in an encrypted database on your device using AES-256 encryption.
-The encryption key is stored in your device's secure hardware keystore and is unique
-to your device.
-</p>
+  <h2>2. Data you provide</h2>
+  <p>The app allows you to record:</p>
+  <ul>
+    <li>Firearm names and calibres</li>
+    <li>Ammunition types and calibres</li>
+    <li>Shooting session dates and round counts</li>
+  </ul>
+  <p>This data is stored exclusively in an encrypted SQLite database on your device. It is not uploaded, synced, or
+  shared with us or any third party. You are in full control: you can export or delete this data at any time from
+  within the app.</p>
 
-<h2>Backups and exports</h2>
-<p>
-When you use the Backup or Export features, AmmoLog creates a file and hands it to
-Android's standard file-sharing system. You choose where that file goes. AmmoLog has
-no visibility into or control over files once they leave the app.
-</p>
+  <h2>3. Crash reporting – Firebase Crashlytics</h2>
+  <p>AmmoLog uses <strong>Firebase Crashlytics</strong>, a crash-reporting service provided by Google LLC, to help us
+  identify and fix bugs. When the app crashes or encounters an error, Crashlytics automatically collects and sends
+  a report containing:</p>
+  <ul>
+    <li>Device model, manufacturer, and Android version</li>
+    <li>App version and build number</li>
+    <li>A stack trace describing where the crash occurred</li>
+    <li>Time and date of the crash</li>
+    <li>A randomly generated Crashlytics installation identifier</li>
+  </ul>
+  <p>This data does not include your name, email address, or any firearm or ammunition records you have entered. The
+  installation identifier cannot be linked back to you personally.</p>
+  <p>Crash reports are processed by Google on our behalf and are subject to Google's privacy policy:
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+  For more information about Crashlytics specifically, see
+  <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a>.</p>
 
-<h2>Permissions</h2>
-<p>
-AmmoLog requests no permissions. It does not access your camera, location, contacts,
-microphone, or any other device resource.
-</p>
+  <h2>4. Data we do not collect</h2>
+  <p>We do not collect, store, or process:</p>
+  <ul>
+    <li>Your name, email address, or account information — the app requires no account</li>
+    <li>Your location or GPS data</li>
+    <li>Your contacts, camera, or microphone data</li>
+    <li>Any firearm or ammunition records you enter</li>
+    <li>Advertising identifiers or browsing history</li>
+  </ul>
 
-<h2>Children</h2>
-<p>
-AmmoLog is not directed at children under 13 and does not knowingly collect any
-information from anyone.
-</p>
+  <h2>5. Backups</h2>
+  <p>If you use the in-app backup feature, a backup file is saved to a location of your choosing on your own device or
+  connected storage (e.g. a folder you select via Android's file picker). We do not have access to this file. Android
+  system backups are disabled for the app (<code>android:allowBackup="false"</code>), so your data is not
+  automatically backed up to Google's servers via the Android backup service.</p>
 
-<h2>Contact</h2>
-<p>
-If you have questions about this policy, contact: ammolog.app@gmail.com
-  
-If you have questions about this privacy policy, contact:
-<a href="mailto:ammolog.app@gmail.com">
-ammolog.app@gmail.com
+  <h2>6. Exports</h2>
+  <p>The export feature generates a file (CSV or PDF) from your records and places it in a location you choose. We do
+  not receive a copy of exported files.</p>
 
-</p>
+  <h2>7. Children</h2>
+  <p>AmmoLog is not directed at children under 13. We do not knowingly collect any information from children.</p>
 
+  <h2>8. Changes to this policy</h2>
+  <p>If we make material changes to this policy, we will update the effective date above and, where appropriate, notify
+  users via an in-app notice. Continued use of the app after a change constitutes acceptance of the updated policy.</p>
+
+  <h2>9. Contact</h2>
+  <p>For any questions or requests relating to this privacy policy, please contact:<br/>
+  <a href="mailto:milesherridge@gmail.com">milesherridge@gmail.com</a></p>
+
+  <footer>
+    &copy; 2025 Miles Herridge · AmmoLog · All rights reserved
+  </footer>
+
+</div>
 </body>
 </html>
